@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[100px] flex justify-between items-center px-5 drop-shadow-xl bg-[#a586f3]'>
+    <div className='fixed px-5 w-full h-[100px] flex justify-between items-center text-white bg-[#3a2678]'>
 
       <div>
         <img src={Portrait}
@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
 
       {/* When screen reaches a medium display, show menu in navbar */}
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex font-[Poppins] drop-shadow-md text-white'>
         <li>Home</li>
         <li>About</li>
         <li>Skills</li>
@@ -29,13 +29,13 @@ const Navbar = () => {
       </ul>
 
       {/* Trigram button / x */}
-      <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>
+      <div onClick={handleClick} className='md:hidden z-10 cursor-pointer text-[#3a2678]'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Menu display on moblie screen */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#EFBCBC]'}>
-        <li className='py-4 text-2xl hover:decoration-2 z-10'>Home</li>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center text-white bg-[#3a2678]'}>
+        <li className='py-4 text-2xl'>Home</li>
         <li className='py-4 text-2xl'>About</li>
         <li className='py-4 text-2xl'>Skills</li>
         <li className='py-4 text-2xl'>Work</li>
@@ -43,7 +43,7 @@ const Navbar = () => {
       </ul>
 
       {/* Socials */}
-      <div className='hidden lg:flex flex-col fixed bottom-[20px] '>
+      <div className='hidden lg:flex flex-col fixed bottom-[20px] drop-shadow-xl'>
         <ul>
           <li className='w-[150px] h-[50px] flex justify-between items-center rounded-tr-lg ml-[-116px] hover:rounded-r-lg hover:ml-[-20px] duration-300 bg-[#1666C2]'>
             <a className='w-full flex justify-between items-center  text-white'
