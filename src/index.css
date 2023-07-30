@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+/* Imported Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins&family=Pacifico&family=Quicksand:wght@300&display=swap');
 
 @layer base {
+    h1 {
+        @apply font-[Carter];
+    }
+
     body {
         @apply font-[Quicksand];
-        @apply text-white;
     }
+
     li {
         @apply px-4;
         @apply cursor-pointer;

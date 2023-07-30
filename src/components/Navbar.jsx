@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[100px] flex justify-between items-center px-5 bg-[#241a4d]'>
+    <div className='fixed w-full h-[100px] flex justify-between items-center px-5 drop-shadow-xl bg-[#a586f3]'>
 
       <div>
         <img src={Portrait}
@@ -34,7 +34,7 @@ const Navbar = () => {
       </div>
 
       {/* Menu display on moblie screen */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#241a4d]'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#EFBCBC]'}>
         <li className='py-4 text-2xl hover:decoration-2 z-10'>Home</li>
         <li className='py-4 text-2xl'>About</li>
         <li className='py-4 text-2xl'>Skills</li>
