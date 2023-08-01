@@ -32,8 +32,8 @@ const Home = () => {
 
         {/* Background information */}
         <p className='
-        max-w-[760px] lg:max-w-[1000px]
-        font-[Poppins] text-[#c557c9]'>
+            max-w-[760px] lg:max-w-[1000px]
+            font-[Poppins] text-[#c557c9]'>
           Continued professional education in web development and received a certificate in Full Stack Web Development from Southern Methodist University.
           <br />
           Acquired skills focused on HTML5, CSS3, Javascript, Rest APIs, jQuery, Node.js, Express, SQL, PWA, React.js, MERN, etc.
@@ -41,19 +41,19 @@ const Home = () => {
 
         <div>
           <button className='
-          font-[Poppins] shadow-lg
-          my-4 px-4 py-3
-          flex items-center gap-2
-          rounded-lg
-          text-white bg-[#9478D9]
-          hover:bg-[#5e68e8] hover:shadow-inner duration-300'>
-            View Work
+                   font-[Poppins] shadow-lg
+                   my-4 px-4 py-3
+                   flex items-center gap-2
+                   rounded-lg
+                 text-white bg-[#9478D9]
+                 hover:bg-[#5e68e8] hover:shadow-inner duration-300'>
+              View Work
             <span className='hover:'>
               <FaArrowAltCircleRight />
             </span>
-
           </button>
         </div>
+
       </div>
     </div>
   )

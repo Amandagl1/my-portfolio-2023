@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* Imported Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Quicksand&family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Quicksand&family=Limelight&family=Lobster&display=swap');
 
 @layer base {
 
@@ -24,4 +24,19 @@
     @apply cursor-pointer;
   }
 
+}
+
+.work-content {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.work-content:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(143, 100, 250, 0.8),
+    hsla(242, 87%, 50%, 0.8)
+  )!important;
 }

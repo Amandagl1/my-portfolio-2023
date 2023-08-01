@@ -18,7 +18,7 @@ const Skills = () => {
             max-w-[900px] mx-auto w-full h-full p-5
             flex flex-col justify-center items-center'>
         <h2 className='
-              w-[450px] mt-4 py-4 inline text-center
+              font-[Limelight] w-[450px] mt-4 py-4 inline text-center
               border-b-8 text-[#F3D9E2] border-[#c557c9]'>
           Skills
         </h2>
