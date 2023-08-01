@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 /* Imported Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins&family=Pacifico&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Quicksand&family=Limelight&display=swap');
 
 @layer base {
     h1 {
-        @apply font-[Carter];
+        @apply font-[Limelight];
     }
 
     body {

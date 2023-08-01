@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed px-5 w-full h-[100px] flex justify-between items-center text-white bg-[#3a2678]'>
+    <div className='fixed px-5 w-full h-[100px] flex justify-between items-center bg-[#FCF1EF]'>
 
       <div>
         <img src={Portrait}
@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
 
       {/* When screen reaches a medium display, show menu in navbar */}
-      <ul className='hidden md:flex font-[Poppins] drop-shadow-md text-white'>
+      <ul className='hidden md:flex font-[Poppins] drop-shadow-md text-[#1C2439]'>
         <li>Home</li>
         <li>About</li>
         <li>Skills</li>
@@ -29,12 +29,12 @@ const Navbar = () => {
       </ul>
 
       {/* Trigram button / x */}
-      <div onClick={handleClick} className='md:hidden z-10 cursor-pointer text-[#3a2678]'>
+      <div onClick={handleClick} className='md:hidden z-10 cursor-pointer text-[#1C2439]'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Menu display on moblie screen */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center text-white bg-[#3a2678]'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center text-[#1C2439] bg-[#FCF1EF]'}>
         <li className='py-4 text-2xl'>Home</li>
         <li className='py-4 text-2xl'>About</li>
         <li className='py-4 text-2xl'>Skills</li>
