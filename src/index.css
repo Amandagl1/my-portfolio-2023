@@ -6,16 +6,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Quicksand&family=Limelight&display=swap');
 
 @layer base {
-    h1 {
-        @apply font-[Limelight];
-    }
 
-    body {
-        @apply font-[Quicksand];
-    }
+  body {
+    @apply font-[Quicksand];
+  }
 
-    li {
-        @apply px-4;
-        @apply cursor-pointer;
-    }
+  h1 {
+    @apply font-[Limelight];
+  }
+
+  h2 {
+    @apply font-[Pacifico] text-4xl;
+  }
+
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+
 }

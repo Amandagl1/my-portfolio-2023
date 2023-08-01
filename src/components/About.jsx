@@ -4,11 +4,11 @@ const About = () => {
   return (
     <div name='about' className='w-full h-screen text-[#F3D9E2] bg-[#9478D9]'>
       <div className='w-full h-full flex flex-col justify-center items-center'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-6'>
           <div className='sm:text-right pb-6 pl-4'>
-            <p className='font-[Pacifico] text-4xl font-bold inline border-b-4 text-[#3a2678] border-[#3a2678]'>
+            <h2 className='inline border-b-8 text-[#3a2678] border-[#3a2678]'>
               About
-            </p>
+            </h2>
           </div>
         </div>
 

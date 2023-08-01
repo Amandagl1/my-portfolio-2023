@@ -19,11 +19,16 @@ const Home = () => {
         </h1>
 
         {/* Title */}
-        <h2 className='mx-5 mb-2 text-2xl'>
-          <span className='font-bold'>Full Stack Web Developer</span>
-          <br />
-          <span className='ml-[20px]'>with a background in Creative Media - Digital Cinema.</span>
-        </h2>
+        <div className='mx-5 mb-1 text-2xl'>
+          <p className='w-[285px] py-1 hover:scale-105 duration-200'>
+            <a className='hover:text-[#2d9f8f] cursor-help' href="https://linkedin.com/in/amanda-lee-03a33826b/">
+              Full Stack Web Developer
+            </a>
+          </p>
+          <span className='ml-[20px]'>
+            with a background in Creative Media - Digital Cinema.
+          </span>
+        </div>
 
         {/* Background information */}
         <p className='
@@ -46,7 +51,7 @@ const Home = () => {
             <span className='hover:'>
               <FaArrowAltCircleRight />
             </span>
-            
+
           </button>
         </div>
       </div>

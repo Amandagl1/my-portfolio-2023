@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
 
       {/* When screen reaches a medium display, show menu in navbar */}
-      <ul className='hidden md:flex font-[Poppins] drop-shadow-md text-[#FCF1EF]'>
+      <ul className='hidden md:flex font-[Poppins] drop-shadow-md text-white'>
         <li>Home</li>
         <li>About</li>
         <li>Skills</li>
