@@ -3,14 +3,14 @@ import { FaArrowAltCircleRight } from 'react-icons/fa'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen pt-[40px] justify-center bg-[#E39686]'>
+    <div name='home' className='w-full h-screen pt-[40px] justify-center bg-[#F3D9E2]'>
 
       {/* Introduction */}
       <div className='
       pt-20 px-10 mx-auto max-w-[800px] h-full
       flex flex-col justify-center'>
 
-        <p className='font-[Pacifico] text-4xl md:text-5xl md:mt-2 text-[#EE5F3C]'>
+        <p className='font-[Pacifico] text-4xl md:text-5xl md:mt-2 text-[#9478D9]'>
           Hi, my name is
         </p>
         {/* white bee image with transparent background */}
@@ -28,7 +28,7 @@ const Home = () => {
         {/* Background information */}
         <p className='
         max-w-[760px] lg:max-w-[1000px]
-        font-[Poppins] text-white'>
+        font-[Poppins] text-[#c557c9]'>
           Continued professional education in web development and received a certificate in Full Stack Web Development from Southern Methodist University.
           <br />
           Acquired skills focused on HTML5, CSS3, Javascript, Rest APIs, jQuery, Node.js, Express, SQL, PWA, React.js, MERN, etc.
@@ -37,11 +37,11 @@ const Home = () => {
         <div>
           <button className='
           font-[Poppins] shadow-lg
-          my-4 px-4 py-3 border-2 
+          my-4 px-4 py-3
           flex items-center gap-2
           rounded-lg
-          text-white bg-[#EE5F3C] border-[#EE5F3C] 
-          hover:bg-[#4f5aec] hover:border-[#3a2678] hover:shadow-inner duration-300'>
+          text-white bg-[#9478D9]
+          hover:bg-[#5e68e8] hover:shadow-inner duration-300'>
             View Work
             <span className='hover:'>
               <FaArrowAltCircleRight />
