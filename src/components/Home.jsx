@@ -13,7 +13,6 @@ const Home = () => {
         <p className='font-[Pacifico] text-4xl md:text-5xl md:mt-2 text-[#9478D9]'>
           Hi, my name is
         </p>
-        {/* white bee image with transparent background */}
         <h1 className='mx-5 mt-4 mb-2 text-5xl md:text-6xl font-bold text-[#1C2439]'>
           Amanda Lee
         </h1>

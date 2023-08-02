@@ -34,7 +34,7 @@ export const Contact = () => {
           </button>
         </form>
 
-        <div className='absolute w-full flex max-w-[500px] justify-center mt-[18px]'>
+        <div className='w-full text-center justify-center mt-[14px]'>
           <p>
             Made with ❤️ by Amanda Lee
           </p>

@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Portrait from '../assets/portrait.jpg'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
 
@@ -21,11 +22,31 @@ const Navbar = () => {
 
       {/* When screen reaches a medium display, show menu in navbar */}
       <ul className='hidden md:flex font-[Poppins] drop-shadow-md text-white'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Work</li>
-        <li>Contact</li>
+        <li>
+          <Link to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to='about' smooth={true} duration={500}>
+            About
+          </Link>
+          </li>
+        <li>
+          <Link to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='work' smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Trigram button / x */}
@@ -35,11 +56,32 @@ const Navbar = () => {
 
       {/* Menu display on moblie screen */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center text-[#FCF1EF] bg-[#1C2439]'}>
-        <li className='py-4 text-2xl'>Home</li>
-        <li className='py-4 text-2xl'>About</li>
-        <li className='py-4 text-2xl'>Skills</li>
-        <li className='py-4 text-2xl'>Work</li>
-        <li className='py-4 text-2xl'>Contact</li>
+        
+        <li className='py-4 text-2xl'>
+          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className='py-4 text-2xl'>
+          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+            About
+          </Link>
+          </li>
+        <li className='py-4 text-2xl'> 
+          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className='py-4 text-2xl'>
+          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className='py-4 text-2xl'>
+          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Socials */}
