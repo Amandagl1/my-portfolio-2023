@@ -1,7 +1,7 @@
 # porfolio-of-amanda-lee
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Link to my portfolio: [Amanda Lee]()
+Link to my portfolio: [Amanda Lee](https://amandagl1.github.io/my-portfolio-2023/)
 
 ## About me
 Hi, my name is Amanda Lee. I am a Full Stack Web Developer eager to learn more. I will continue to gain knowledge throughout my career, not only because I love to learn, but because I believe that it is an essential skill in the ever-evolving world of modern technology.
