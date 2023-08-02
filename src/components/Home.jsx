@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaArrowAltCircleRight } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 const Home = () => {
+
+  const [nav, setNav] = useState(false)
+  const handleClick = () => setNav(!nav)
+
   return (
     <div name='home' className='w-full h-screen pt-[40px] justify-center bg-[#F3D9E2]'>
 
@@ -39,15 +44,26 @@ const Home = () => {
         </p>
 
         <div>
-          <button className='
-                   font-[Poppins] shadow-lg rounded-lg
-                   my-4 px-4 py-3 flex text-center gap-2 duration-300
-                 text-white bg-[#9478D9] hover:bg-[#5e68e8] hover:shadow-inner'>
+          <li className='
+                   font-[Poppins] shadow-lg rounded-lg justify-center items-center
+                   w-[150px] my-4 px-4 py-3 flex text-center gap-2 duration-300
+                   text-white bg-[#9478D9] hover:bg-[#5e68e8] hover:shadow-inner'>
+            <Link onClick={handleClick} to='work' smooth={true} duration={500}>
               View Work
+            </Link>
             <span>
               <FaArrowAltCircleRight />
             </span>
-          </button>
+          </li>
+          {/* <button className='
+                   font-[Poppins] shadow-lg rounded-lg items-center
+                   my-4 px-4 py-3 flex text-center gap-2 duration-300
+                   text-white bg-[#9478D9] hover:bg-[#5e68e8] hover:shadow-inner'>
+            View Work
+            <span>
+              <FaArrowAltCircleRight />
+            </span>
+          </button> */}
         </div>
 
       </div>

@@ -10,7 +10,7 @@ Hi, my name is Amanda Lee. I am a Full Stack Web Developer eager to learn more. 
 I created this portfolio to showcase the skills that I have learned throughout my time at SMU boot camp and the accomplishments that have resulted from collaborations. What these projects reflect is teamwork, perseverance, communication, and overall hard work. 
 
 ## Webpage
-<img src="assets/images/webpage-screenshot.png" width="500px" alt="Webpage screenshot" />
+<img src="src/assets/my-portfolio-2023.png" width="500px" alt="Webpage screenshot" />
 
 
 In the project directory, you can run:
