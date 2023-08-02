@@ -41,14 +41,11 @@ const Home = () => {
 
         <div>
           <button className='
-                   font-[Poppins] shadow-lg
-                   my-4 px-4 py-3
-                   flex items-center gap-2
-                   rounded-lg
-                 text-white bg-[#9478D9]
-                 hover:bg-[#5e68e8] hover:shadow-inner duration-300'>
+                   font-[Poppins] shadow-lg rounded-lg
+                   my-4 px-4 py-3 flex text-center gap-2 duration-300
+                 text-white bg-[#9478D9] hover:bg-[#5e68e8] hover:shadow-inner'>
               View Work
-            <span className='hover:'>
+            <span>
               <FaArrowAltCircleRight />
             </span>
           </button>
