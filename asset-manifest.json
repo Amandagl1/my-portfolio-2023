@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.2f713d5b.css",
-    "main.js": "/my-portfolio/static/js/main.ad00bd9d.js",
-    "static/media/moviesthatmove.png": "/my-portfolio/static/media/moviesthatmove.744410eef806bf9a0e64.png",
-    "static/media/mojave.png": "/my-portfolio/static/media/mojave.8f2811e218bebd52abde.png",
-    "static/media/momentum.png": "/my-portfolio/static/media/momentum.1abfb776340456e90bc6.png",
-    "static/media/portrait.jpg": "/my-portfolio/static/media/portrait.3d34c2b37ebc54fb0a96.jpg",
-    "static/media/notetaker.png": "/my-portfolio/static/media/notetaker.9d0df521745ebf0396ad.png",
-    "static/media/jate.png": "/my-portfolio/static/media/jate.5ebb65331b510986aa8e.png",
-    "static/media/react.png": "/my-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/node.png": "/my-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/mongo.png": "/my-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
-    "static/media/github.png": "/my-portfolio/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/html.png": "/my-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/tailwind.png": "/my-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/css.png": "/my-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/javascript.png": "/my-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "index.html": "/my-portfolio/index.html",
-    "main.2f713d5b.css.map": "/my-portfolio/static/css/main.2f713d5b.css.map",
-    "main.ad00bd9d.js.map": "/my-portfolio/static/js/main.ad00bd9d.js.map"
+    "main.css": "/my-portfolio-2023/static/css/main.2f713d5b.css",
+    "main.js": "/my-portfolio-2023/static/js/main.f386f245.js",
+    "static/media/moviesthatmove.png": "/my-portfolio-2023/static/media/moviesthatmove.744410eef806bf9a0e64.png",
+    "static/media/mojave.png": "/my-portfolio-2023/static/media/mojave.8f2811e218bebd52abde.png",
+    "static/media/momentum.png": "/my-portfolio-2023/static/media/momentum.1abfb776340456e90bc6.png",
+    "static/media/portrait.jpg": "/my-portfolio-2023/static/media/portrait.3d34c2b37ebc54fb0a96.jpg",
+    "static/media/notetaker.png": "/my-portfolio-2023/static/media/notetaker.9d0df521745ebf0396ad.png",
+    "static/media/jate.png": "/my-portfolio-2023/static/media/jate.5ebb65331b510986aa8e.png",
+    "static/media/react.png": "/my-portfolio-2023/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/my-portfolio-2023/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/my-portfolio-2023/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/my-portfolio-2023/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/my-portfolio-2023/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/my-portfolio-2023/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/my-portfolio-2023/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/my-portfolio-2023/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/my-portfolio-2023/index.html",
+    "main.2f713d5b.css.map": "/my-portfolio-2023/static/css/main.2f713d5b.css.map",
+    "main.f386f245.js.map": "/my-portfolio-2023/static/js/main.f386f245.js.map"
   },
   "entrypoints": [
     "static/css/main.2f713d5b.css",
-    "static/js/main.ad00bd9d.js"
+    "static/js/main.f386f245.js"
   ]
 }
