@@ -13,13 +13,13 @@ import Tailwind from '../assets/tailwind.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-full sm:h-screen text-white bg-[#1C2439]'>
+    <div name='skills' className='w-full h-full sm:h-screen text-[#1C2439]'>
       <div className='
             max-w-[900px] mx-auto w-full h-full p-5
             flex flex-col justify-center items-center'>
         <h2 className='
               font-[Limelight] w-[450px] mt-4 py-4 inline text-center
-              border-b-8 text-[#F3D9E2] border-[#c557c9]'>
+              border-b-8 border-[#3a2678]'>
           Skills
         </h2>
         <p className='pt-4 text-xl'>

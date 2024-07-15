@@ -7,7 +7,7 @@ import NoteTaker from '../assets/notetaker.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-full bg-[#F3D9E2]'>
+    <div name='work' className='w-full md:h-full text-[#1C2439]'>
       <div className='
             max-w-[900px] mx-auto w-full h-full p-4
             flex flex-col justify-center items-center'>
@@ -15,11 +15,11 @@ const Work = () => {
         <div className='mt-6 inline justify-center text-center'>
           <h2 className='
                  pb-4 text-center items-center
-                border-b-8 text-[#1C2439] border-[#9478D9]'>
+                border-b-8 border-[#3a2678]'>
             Work
           </h2>
-          <p className='font-[Poppins] text-xl py-6 flex text-[#c557c9]'>
-            Recent projects that I've created or collaborated on with other amazing developers.
+          <p className='font-[Poppins] text-xl py-6 flex justify-center'>
+            Projects that I've created or collaborated on with other developers.
           </p>
 
           {/* Container for all projects */}

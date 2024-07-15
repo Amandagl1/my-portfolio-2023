@@ -8,7 +8,7 @@ const Home = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div name='home' className='w-full h-screen pt-[40px] justify-center bg-[#F3D9E2]'>
+    <div name='home' className='w-full h-screen pt-[40px] justify-center'>
 
       {/* Introduction */}
       <div className='
@@ -25,7 +25,7 @@ const Home = () => {
         {/* Title */}
         <div className='mx-5 mb-1 text-2xl'>
           <p className='w-[285px] py-1 hover:scale-105 duration-200'>
-            <a className='hover:text-[#2d9f8f] cursor-help' href="https://linkedin.com/in/amanda-lee-03a33826b/">
+            <a className='hover:text-[#2d9f8f] cursor-point' href="https://linkedin.com/in/amanda-lee-03a33826b/">
               Full Stack Web Developer
             </a>
           </p>
@@ -37,7 +37,7 @@ const Home = () => {
         {/* Background information */}
         <p className='
             max-w-[760px] lg:max-w-[1000px]
-            font-[Poppins] text-[#c557c9]'>
+            font-[Poppins] text-[#3a2678]'>
           Continued professional education in web development and received a certificate in Full Stack Web Development from Southern Methodist University.
           <br />
           Acquired skills focused on HTML5, CSS3, Javascript, Rest APIs, jQuery, Node.js, Express, SQL, PWA, React.js, MERN, etc.

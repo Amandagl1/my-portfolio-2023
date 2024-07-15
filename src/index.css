@@ -9,6 +9,7 @@
 
   body {
     @apply font-[Quicksand];
+    @apply bg-[#F3D9E2];
   }
 
   h1 {

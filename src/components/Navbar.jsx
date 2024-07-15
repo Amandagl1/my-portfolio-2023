@@ -49,7 +49,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Trigram button / x */}
+      {/* Trigram button and X */}
       <div onClick={handleClick} className='md:hidden z-10 cursor-pointer text-white'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
