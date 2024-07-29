@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio-2023/static/css/main.58f12832.css",
-    "main.js": "/my-portfolio-2023/static/js/main.c922d101.js",
+    "main.css": "/my-portfolio-2023/static/css/main.f8a7ad76.css",
+    "main.js": "/my-portfolio-2023/static/js/main.8228a383.js",
     "static/media/moviesthatmove.png": "/my-portfolio-2023/static/media/moviesthatmove.744410eef806bf9a0e64.png",
     "static/media/mojave.png": "/my-portfolio-2023/static/media/mojave.8f2811e218bebd52abde.png",
     "static/media/momentum.png": "/my-portfolio-2023/static/media/momentum.1abfb776340456e90bc6.png",
@@ -17,11 +17,11 @@
     "static/media/css.png": "/my-portfolio-2023/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/my-portfolio-2023/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/my-portfolio-2023/index.html",
-    "main.58f12832.css.map": "/my-portfolio-2023/static/css/main.58f12832.css.map",
-    "main.c922d101.js.map": "/my-portfolio-2023/static/js/main.c922d101.js.map"
+    "main.f8a7ad76.css.map": "/my-portfolio-2023/static/css/main.f8a7ad76.css.map",
+    "main.8228a383.js.map": "/my-portfolio-2023/static/js/main.8228a383.js.map"
   },
   "entrypoints": [
-    "static/css/main.58f12832.css",
-    "static/js/main.c922d101.js"
+    "static/css/main.f8a7ad76.css",
+    "static/js/main.8228a383.js"
   ]
 }
