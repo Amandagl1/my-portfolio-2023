@@ -9,7 +9,7 @@
 
   body {
     @apply font-[Quicksand];
-    @apply bg-[#F3D9E2];
+    @apply bg-[#5F6366];
   }
 
   h1 {
@@ -25,6 +25,10 @@
     @apply cursor-pointer;
   }
 
+}
+
+.offset-padding {
+  padding-top: 150px;
 }
 
 .work-content {

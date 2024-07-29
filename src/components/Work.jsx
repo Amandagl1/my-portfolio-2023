@@ -7,15 +7,15 @@ import NoteTaker from '../assets/notetaker.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-full text-[#1C2439]'>
+    <div name='work' className='offset-padding w-full md:h-full text-[#fff]'>
       <div className='
             max-w-[900px] mx-auto w-full h-full p-4
             flex flex-col justify-center items-center'>
 
-        <div className='mt-6 inline justify-center text-center'>
+        <div className='inline justify-center text-center'>
           <h2 className='
                  pb-4 text-center items-center
-                border-b-8 border-[#3a2678]'>
+                border-b-8 border-[#86B3D1]'>
             Work
           </h2>
           <p className='font-[Poppins] text-xl py-6 flex justify-center'>
@@ -30,7 +30,7 @@ const Work = () => {
               className='
                 mx-auto group container border-y-8 border-[#1C2439] rounded-md
                 flex justify-center items-center work-content
-                shadow-lg shadow-[#f7d48f]'>
+                shadow-lg shadow-[#2e2d2d]'>
 
               {/* When user hovers over projects */}
               <div className='opacity-0 group-hover:opacity-100'>
@@ -56,7 +56,7 @@ const Work = () => {
               className='
                 mx-auto group container border-y-8 border-[#1C2439] rounded-md
                 flex justify-center items-center work-content
-                shadow-lg shadow-[#f7d48f]'>
+                shadow-lg shadow-[#2e2d2d]'>
 
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='font-[Poppins] text-4xl text-white tracking-wider'>
@@ -83,7 +83,7 @@ const Work = () => {
               className='
                 mx-auto group container border-y-8 border-[#1C2439] rounded-md
                 flex justify-center items-center work-content
-                shadow-lg shadow-[#f7d48f]'>
+                shadow-lg shadow-[#2e2d2d]'>
 
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='font-[Poppins] text-4xl text-white tracking-wider'>
@@ -109,7 +109,7 @@ const Work = () => {
               className='
                 mx-auto group container border-y-8 border-[#1C2439] rounded-md
                 flex justify-center items-center work-content
-                shadow-lg shadow-[#f7d48f]'>
+                shadow-lg shadow-[#2e2d2d]'>
 
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='font-[Poppins] text-4xl text-white tracking-wider'>
@@ -135,7 +135,7 @@ const Work = () => {
               className='
                 mx-auto group container border-y-8 border-[#1C2439] rounded-md
                 flex justify-center items-center work-content
-                shadow-lg shadow-[#f7d48f]'>
+                shadow-lg shadow-[#2e2d2d]'>
 
               <div className='opacity-0 group-hover:opacity-100'>
                 <span className='font-[Poppins] text-4xl text-white tracking-wider'>

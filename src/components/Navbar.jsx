@@ -11,7 +11,8 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed px-5 w-full h-[100px] flex justify-between items-center bg-[#1C2439]'>
+    <div className='fixed px-5 w-full h-[100px] flex justify-between items-center bg-[#4D6D9A]'
+    style={{ boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',}} >
 
       <div>
         <img src={Portrait}
