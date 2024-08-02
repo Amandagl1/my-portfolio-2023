@@ -43,7 +43,7 @@ const Work = () => {
                   <a href="https://1jessep.github.io/moviesthatmoveproject/">
                     <button className='
                             font-[Lobster] m-2 px-6 py-2 rounded-lg 
-                            text-2xl text-center text-white bg-[#9478D9]'>
+                            text-2xl text-center text-white bg-[#86B3D1]'>
                       View
                     </button>
                   </a>
@@ -68,7 +68,7 @@ const Work = () => {
                   <a href="https://momentum100.herokuapp.com/">
                     <button className='
                             font-[Lobster] m-2 px-6 py-2 rounded-lg 
-                            text-2xl text-center text-white bg-[#9478D9]'>
+                            text-2xl text-center text-white bg-[#86B3D1]'>
                       View
                     </button>
                   </a>
@@ -95,7 +95,7 @@ const Work = () => {
                   <a href="https://mojave-store.herokuapp.com/">
                     <button className='
                             font-[Lobster] m-2 px-6 py-2 rounded-lg 
-                            text-2xl text-center text-white bg-[#9478D9]'>
+                            text-2xl text-center text-white bg-[#86B3D1]'>
                       View
                     </button>
                   </a>
@@ -121,7 +121,7 @@ const Work = () => {
                   <a href="https://amandas-text-editor.herokuapp.com/">
                     <button className='
                             font-[Lobster] m-2 px-6 py-2 rounded-lg 
-                            text-2xl text-center text-white bg-[#9478D9]'>
+                            text-2xl text-center text-white bg-[#86B3D1]'>
                       View
                     </button>
                   </a>
@@ -147,7 +147,7 @@ const Work = () => {
                   <a href="https://note-taker-2023.herokuapp.com/">
                     <button className='
                             font-[Lobster] m-2 px-6 py-2 rounded-lg 
-                            text-2xl text-center text-white bg-[#9478D9]'>
+                            text-2xl text-center text-white bg-[#86B3D1]'>
                       View
                     </button>
                   </a>

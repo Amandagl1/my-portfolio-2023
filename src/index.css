@@ -39,11 +39,22 @@
 }
 
 .work-content:hover {
+  @apply transition;
+  transition-duration: 4000ms;
+
   background-image: linear-gradient(
     to bottom right,
-    rgba(194, 137, 255, 0.8),
-    hsla(242, 87%, 50%, 0.8)
+    rgba(137, 243, 255, 0.8),
+    hsla(222, 87%, 50%, 0.8)
   )!important;
-
-
 }
+
+/* Multiple shadows create a more complex effect. Both are applied under element */
+.shadow-style {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.text-shadow-style {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }} */
